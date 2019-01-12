@@ -1,4 +1,5 @@
-CREATE DATABASE `crossriver` /*!40100 DEFAULT CHARACTER SET latin1 */;
+CREATE DATABASE `crossrivers` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `crossrivers`;
 CREATE TABLE `notification` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `date_read` datetime DEFAULT NULL,
